@@ -1,6 +1,6 @@
 # SparkR
 
-Easily use Spark with R scripts, within docker enviorment.
+Easily use Spark with R scripts, within Docker environment.
 
 ## Pre-requisites
 
