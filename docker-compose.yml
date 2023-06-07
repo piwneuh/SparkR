@@ -1,0 +1,12 @@
+version: "3"
+services:
+  sparkr:
+    image: jozefhajnala/sparkfromr:latest
+    container_name: sparkr
+    ports:
+      - 8787:8787 # RStudio in your browser
+    environment:
+      - PASSWORD=pass # Can't be 'rstudio'
+    volumes:
+      - ./data:/data # Data directory
+      - ./rstudio:/home/rstudio # RStudio directory

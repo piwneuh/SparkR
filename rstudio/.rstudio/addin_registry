@@ -1,0 +1,110 @@
+{
+    "bookdown::mathquill" : {
+        "binding" : "mathquill",
+        "description" : "Input math expressions via the MathQuill library.",
+        "interactive" : true,
+        "name" : "Input LaTeX Math",
+        "ordinal" : 10,
+        "package" : "bookdown",
+        "title" : ""
+    },
+    "bookdown::serve_book" : {
+        "binding" : "serve_book",
+        "description" : "Run bookdown::serve_book() to live preview a book.",
+        "interactive" : true,
+        "name" : "Preview Book",
+        "ordinal" : 9,
+        "package" : "bookdown",
+        "title" : ""
+    },
+    "covr::addin_report" : {
+        "binding" : "addin_report",
+        "description" : "Calculates the package test coverage and opens a report, using `covr::report()`",
+        "interactive" : false,
+        "name" : "Calculate package test coverage",
+        "ordinal" : 12,
+        "package" : "covr",
+        "title" : ""
+    },
+    "jhaddins::addRoxytagCode" : {
+        "binding" : "addRoxytagCode",
+        "description" : "Adds roxgen tag code to current selections in the active RStudio document",
+        "interactive" : false,
+        "name" : "addRoxytagCode",
+        "ordinal" : 2,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::addRoxytagEqn" : {
+        "binding" : "addRoxytagEqn",
+        "description" : "Adds roxgen tag eqn to current selections in the active RStudio document",
+        "interactive" : false,
+        "name" : "addRoxytagEqn",
+        "ordinal" : 4,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::addRoxytagLink" : {
+        "binding" : "addRoxytagLink",
+        "description" : "Adds roxgen tag link to current selections in the active RStudio document",
+        "interactive" : false,
+        "name" : "addRoxytagLink",
+        "ordinal" : 3,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::exportDataFrame" : {
+        "binding" : "exportDataFrame",
+        "description" : "experimental, open data.frame as csv in viewer and select all for copying to excel",
+        "interactive" : false,
+        "name" : "exportDataFrame",
+        "ordinal" : 7,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::insertPostToc" : {
+        "binding" : "insertPostToc",
+        "description" : "Inserts a table of contents into an Rmd file active in RStudio to the cursor position.\n The TOC is generated reading the output html already rendered from that Rmd, so serve_site or\n build_site must be ran first before using the addin.",
+        "interactive" : false,
+        "name" : "insertPostTOC",
+        "ordinal" : 8,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::runCurrentRscript" : {
+        "binding" : "runCurrentRscript",
+        "description" : "Executes the currently open R script file via Rscript with --vanilla option",
+        "interactive" : false,
+        "name" : "runCurrentRscript",
+        "ordinal" : 1,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::runProfiler" : {
+        "binding" : "runProfiler",
+        "description" : "Profile code selected in RStudio in the background, write results into a file and open it",
+        "interactive" : false,
+        "name" : "runProfiler",
+        "ordinal" : 6,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "jhaddins::viewSelection" : {
+        "binding" : "viewSelection",
+        "description" : "Tries to use View to View the object defined by a text selected in RStudio",
+        "interactive" : false,
+        "name" : "viewSelection",
+        "ordinal" : 5,
+        "package" : "jhaddins",
+        "title" : ""
+    },
+    "testit::insert_identical" : {
+        "binding" : "insert_identical",
+        "description" : "Insert the infix operator %==% from testit.",
+        "interactive" : false,
+        "name" : "Insert %==%",
+        "ordinal" : 11,
+        "package" : "testit",
+        "title" : ""
+    }
+}

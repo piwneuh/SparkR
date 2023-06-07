@@ -1,0 +1,22 @@
+1686095109558:library(sparklyr)
+1686095110522:library(dplyr)
+1686095110559:# Install
+1686095110559:spark_install()
+1686095140850:# Connect
+1686095140851:sc <- sparklyr::spark_connect(master = "local")
+1686095145597:datasetPath <- "/data/dataset.csv"
+1686095145597:df <- spark_read_csv(sc, name = "my_data", path = datasetPath, header = TRUE, infer_schema = TRUE)
+1686095151273:glimpse(df)
+1686095151531:head(df)
+1686095151751:spark_disconnect(sc)
+1686095813337:library(sparklyr)
+1686095813338:library(dplyr)
+1686095813339:# Install
+1686095813340:spark_install()
+1686095855486:# Connect
+1686095855486:sc <- sparklyr::spark_connect(master = "local")
+1686095860346:datasetPath <- "/data/dataset.csv"
+1686095860347:df <- spark_read_csv(sc, name = "my_data", path = datasetPath, header = TRUE, infer_schema = TRUE)
+1686095866248:glimpse(df)
+1686095866439:head(df)
+1686095866616:spark_disconnect(sc)
