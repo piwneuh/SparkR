@@ -32,3 +32,14 @@ $ docker-compose up
 1. Change dataset @ ./data/dataset.csv
 
 2. Code R either from Rsudio or locally from ./rstudio/script.r
+
+## Note for installing new packages
+
+In case installing packages doesn't work consider specifing repo to "https://cran.rstudio.com/".
+
+```R
+# Example for installing tidyverse
+install.packages("tidyverse", repos = "https://cran.rstudio.com/")
+```
+
+### Happy R coding! 🥝
